@@ -1,0 +1,40 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+.button-container {
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #04aa6d;
+  border: 2px solid #555555;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+}
+
+/* Prevents double borders*/
+.button-container:not(:last-child){
+  border-right: none;
+}
+/* Add a background color on hover*/
+.button-container:hover{
+  background-color: #e7e7e7;
+}
+.results{
+  background-color: #e7e7e7;
+  height: 20px;
+  width: 80px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  text-align:center;
+}
